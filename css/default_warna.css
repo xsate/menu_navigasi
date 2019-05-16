@@ -1,0 +1,50 @@
+@import "./warna.css";
+body {
+	background-color: var(--warna-putih);
+	margin: 0;
+}
+nav {
+	background-color: var(--warna-biru);
+	/*height: var(--size-nav);*/
+	height: auto;
+	display: flex;
+
+	width: 900px;
+	margin: auto;
+	flex-wrap: wrap;
+}
+/*
+  Setting Global
+  semua ul, ul ul, a yang berada dalam tag nav
+*/
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+nav ul ul {
+
+}
+nav a {
+	text-decoration: none;
+	color: var(--warna-text);
+}
+
+/* Setting bertarget*/
+nav ul {
+	display: flex;	
+}
+nav ul ul {
+	flex-direction: column;
+}
+nav a {
+}
+
+/* Keperluan Hover*/
+nav ul ul {
+	visibility: hidden;	
+}
+nav ul li:hover > ul {
+	visibility: visible;
+}

@@ -1,8 +1,10 @@
 :root{
+	/* Warna*/
 	--warna-biru: cornflowerblue;
 	--warna-abu: gainsboro;
 	--warna-putih: ghostwhite;
-
-	--warna-text: dimgray;
-
+	--warna-text: ghostwhite;
+	
+	/* Ukuran*/
+	--size-nav: 50px;
 }
